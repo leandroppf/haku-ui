@@ -2,15 +2,11 @@
 module.exports = {
   content: ["./src/**/*.tsx"],
   theme: {
-    colors: {
-      "haku-cyan": {
-        500: "red",
+    extend: {
+      fontFamily: {
+        sans: "Nunito, sans-serif",
       },
     },
-    fontSize: {
-      "haku-xs": "0.85rem",
-    },
-    extend: {},
   },
   plugins: [],
 };

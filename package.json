@@ -4,17 +4,17 @@
   "version": "0.0.1-alpha",
   "license": "MIT",
   "description": "A library to use for personal projects while i'm learning about this libraries world!",
-  "homepage": "",
+  "homepage": "https://github.com/leandroppf/haku-ui",
   "author": {
     "name": "Leandro Pedroso",
     "email": "leandroppf@gmail.com"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/leandroppf/haku-ui/issues"
   },
   "repository": {
     "type": "github",
-    "url": ""
+    "url": "https://github.com/leandroppf/haku-ui"
   },
   "keywords": [
     "haku",
@@ -48,6 +48,8 @@
     "build-tailwind": "NODE_ENV=production npx tailwindcss -o ./dist/haku-ui.css --minify"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.0.0",
+    "clsx": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -59,6 +61,7 @@
     "postcss": "^8.4.18",
     "tailwindcss": "^3.1.8",
     "typescript": "^4.6.4",
-    "vite": "^3.1.0"
+    "vite": "^3.1.0",
+    "vite-plugin-dts": "^1.6.6"
   }
 }
