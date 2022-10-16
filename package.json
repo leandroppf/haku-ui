@@ -1,7 +1,7 @@
 {
   "name": "haku-ui",
   "private": false,
-  "version": "0.0.1-alpha",
+  "version": "0.0.2-alpha",
   "license": "MIT",
   "description": "A library to use for personal projects while i'm learning about this libraries world!",
   "homepage": "https://github.com/leandroppf/haku-ui",
@@ -39,7 +39,7 @@
       "import": "./dist/haku-ui.es.js",
       "require": "./dist/haku-ui.umd.js"
     },
-    "./dist/leandroppf.css": "./dist/haku-ui.css"
+    "./dist/haku-ui.css": "./dist/haku-ui.css"
   },
   "scripts": {
     "dev": "vite",
